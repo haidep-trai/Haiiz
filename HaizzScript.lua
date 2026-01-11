@@ -1,31 +1,31 @@
 -- filename: 
 -- version: lua51
 -- line: [0, 0] id: 1
-local r0_1 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua", true))()
 local Window = Fluent:CreateWindow({
-  Title = "Banana Cat Hub-Blox Fruit [ Perium ]",
-  SubTitle = "By Haiiz",
-  TabWidth = 160,
-  Theme = "Darker",
-  Acrylic = false,
-  Size = r4_1,
-  MinimizeKey = Enum.KeyCode.End,
+  Title = "Banana Cat Hub - Blox Fruits [FREE]",
+    SubTitle = "By Haiiz Fix",
+    TabWidth = 160,
+    Theme = "Darker",
+    Size = UDim2.new(0, 460, 0, 350),
+    Acrylic = false,
+    MinimizeKey = Enum.KeyCode.End
 })
-local r3_1 = r1_1:AddTab({Title = "Tab Information"})
-r3_1 = r1_1:AddTab({Title = "Tab Framing"})
-r3_1 = r1_1:AddTab({Title = "Tab Event"})
-r3_1 = r1_1:AddTab({Title = "Tab Get and Upgrade Items"})
-r3_1 = r1_1:AddTab({Title = "Tab Setting"})
-r3_1 = r1_1:AddTab({Title = "Tab Webhook"})
-r3_1 = r1_1:AddTab({Title = "Tab Index"})
-r3_1 = r1_1:AddTab({Title = "Tab Player"})
-r3_1 = r1_1:AddTab({Title = "Tab Teleport"})
-r3_1 = r1_1:AddTab({Title = "Tab Fake"})
-r3_1 = r1_1:AddTab({Title = "Tab Fruit"})
-r3_1 = r1_1:AddTab({Title = "Tab Raid"})
-r3_1 = r1_1:AddTab({Title = "Tab Upgrade Race"})
-r3_1 = r1_1:AddTab({Title = "Tab Shop"})
-r3_1 = r1_1:AddTab({Title = "Tab Other"})
+Window:AddTab({ Title = "Information" })
+Window:AddTab({ Title = "Framing" })
+Window:AddTab({ Title = "Event" })
+Window:AddTab({ Title = "Get & Upgrade Items" })
+Window:AddTab({ Title = "Setting" })
+Window:AddTab({ Title = "Webhook" })
+Window:AddTab({ Title = "Index" })
+Window:AddTab({ Title = "Player" })
+Window:AddTab({ Title = "Teleport" })
+Window:AddTab({ Title = "Fake" })
+Window:AddTab({ Title = "Fruit" })
+Window:AddTab({ Title = "Raid" })
+Window:AddTab({ Title = "Upgrade Race" })
+Window:AddTab({ Title = "Shop" })
+Window:AddTab({ Title = "Other" })
 if game.PlaceId == 2753915549 then
   Sea1 = true
 end
