@@ -2,9 +2,7 @@
 -- version: lua51
 -- line: [0, 0] id: 1
 local r0_1 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))
-r0_1 = r0_1()
-local r4_1 = r0_1:CreateWindow(320)
-local r1_1 = r0_1:CreateWindow(r0_1, {
+local Window = Fluent:CreateWindow({
   Title = "Banana Cat Hub-Blox Fruit [ Perium ]",
   SubTitle = "By Haiiz",
   TabWidth = 160,
